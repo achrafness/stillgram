@@ -41,3 +41,10 @@ example
 # generated native folders
 /ios
 /android
+
+# build artifacts (shipped as GitHub release assets, not committed)
+*.apk
+*.aab
+
+# local Claude Code settings
+.claude/settings.local.json

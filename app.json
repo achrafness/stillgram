@@ -4,20 +4,17 @@
     "slug": "Stillgram",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/stillgram-icon.png",
     "scheme": "stillgram",
     "userInterfaceStyle": "automatic",
-    "ios": {
-      "icon": "./assets/expo.icon"
-    },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/stillgram-adaptive.png",
+        "backgroundImage": "./assets/images/stillgram-adaptive-bg.png",
+        "backgroundColor": "#C13584"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.Stillgram"
     },
     "web": {
       "output": "static",
@@ -28,9 +25,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#0b0b0f",
+          "image": "./assets/images/stillgram-splash.png",
+          "imageWidth": 120
         }
       ]
     ],
